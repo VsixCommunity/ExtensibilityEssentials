@@ -1,4 +1,4 @@
-# Extensibility Essentials
+# Extensibility Essentials 2017
 
 [![Build status](https://ci.appveyor.com/api/projects/status/6322ui5tjeovphnw?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilityessentials)
 
