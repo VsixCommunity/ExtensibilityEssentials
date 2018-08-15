@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="f613e37-c9b4-4e49-b61f-0cf036ca76d6" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Extensibility Essentials 2017</DisplayName>
-        <Description xml:space="preserve">A collection of higly valuable extensions that makes it much easier to write Visual Studio extensions</Description>
+        <Description xml:space="preserve">A collection of extensions that makes it much easier to write Visual Studio extensions</Description>
         <MoreInfo>https://github.com/madskristensen/ExtensibilityEssentials</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>

@@ -4,7 +4,7 @@
 
 ---------------------------------------
 
-A collection of higly valuable extensions that makes it much easier to write Visual Studio extensions.
+A collection of extensions that makes it much easier to write Visual Studio extensions.
 
 This is a must-have for any extension author. 
 
