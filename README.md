@@ -17,5 +17,8 @@ This is a must-have for any extension author.
 * [Registry Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.registryexplorer)
 * [KnownMonikers Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.KnownMonikersExplorer)
 
+## Extension pack
+This is an extension pack which is a new feature of Visual Studio 2017 Update 8 (15.8) that makes it easy to ship multiple extensions in a single installable package. Read more about [extension packs here](https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthough-create-extension-pack).
+
 ## License
 [Apache 2.0](LICENSE)
