@@ -27,6 +27,10 @@
     {
       "name": "Command Explorer",
       "vsixId": "1a973c52-a674-48d8-a276-65ddab1ac598"
+    },
+    {
+      "name": "Clean MEF Component Cache",
+      "vsixId": "f5028141-9dd0-4ac4-ae6d-0481ae9a940d"
     }
   ]
 }
