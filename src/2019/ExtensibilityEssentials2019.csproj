@@ -16,7 +16,7 @@
     <ProjectGuid>{C2609E50-3761-4D75-B0F1-18AA431CE85C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>ExtensibilityEssentials</RootNamespace>
-    <AssemblyName>ExtensibilityEssentials</AssemblyName>
+    <AssemblyName>ExtensibilityEssentials2019</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
