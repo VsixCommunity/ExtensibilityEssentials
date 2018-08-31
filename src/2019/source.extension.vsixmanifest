@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="4c38fd13-e407-4da6-a7b2-a04346af8942" Version="1.0.999" Language="en-US" Publisher="Mads Kristensen" />
+        <DisplayName>Extensibility Essentials 2019</DisplayName>
+        <Description xml:space="preserve">A collection of extensions that makes it much easier to write Visual Studio extensions</Description>
+        <MoreInfo>https://github.com/madskristensen/ExtensibilityEssentials</MoreInfo>
+        <License>Resources\LICENSE</License>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>vsix, vsx, extensibility</Tags>
+    </Metadata>
+    <Installation AllUsers="true">
+        <!-- VS 2017 Update 8 and later -->
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,17.0)" />
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>

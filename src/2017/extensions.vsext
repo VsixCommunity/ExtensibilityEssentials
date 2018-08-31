@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": "KnownMonikers Explorer",
+      "vsixId": "c38f3512-4653-4d97-a4c5-860a425209f5"
+    },
+    {
+      "name": "Extensibility Tools",
+      "vsixId": "f8330d54-0469-43a7-8fc0-7f19febeb897"
+    },
+    {
+      "name": "Registry Explorer",
+      "vsixId": "29464950-087c-4fb6-9fdd-bab0fb71d68f"
+    },
+    {
+      "name": "Insert Guid",
+      "vsixId": "9def4441-acfd-4dd6-bffd-4531a57dee37"
+    },
+    {
+      "name": "Image Optimizer",
+      "vsixId": "bf95754f-93d3-42ff-bfe3-e05d23188b08"
+    },
+    {
+      "name": "Command Explorer",
+      "vsixId": "1a973c52-a674-48d8-a276-65ddab1ac598"
+    },
+    {
+      "name": "Clean MEF Component Cache",
+      "vsixId": "f5028141-9dd0-4ac4-ae6d-0481ae9a940d"
+    }
+  ]
+}

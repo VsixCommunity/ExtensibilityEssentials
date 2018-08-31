@@ -10,7 +10,19 @@ This is a must-have for any extension author.
 
 ## Included extensions
 
+### 2017
+
 * [Extensibility Tools](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityTools)
+* [Insert Guid](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.insertguid)
+* [Image Optimizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer)
+* [Command Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommandExplorer)
+* [Registry Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.registryexplorer)
+* [KnownMonikers Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.KnownMonikersExplorer)
+* [Clean MEF Component Cache](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache)
+
+### 2019
+
+* VSIX Synchronizer
 * [Insert Guid](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.insertguid)
 * [Image Optimizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer)
 * [Command Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CommandExplorer)
