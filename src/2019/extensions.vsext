@@ -32,6 +32,10 @@
     {
       "name": "Clean MEF Component Cache",
       "vsixId": "f5028141-9dd0-4ac4-ae6d-0481ae9a940d"
+    },
+    {
+      "name": "VSCT IntelliSense",
+      "vsixId": "6c042f35-bf5c-4cf2-826e-05d6d12e5309"
     }
   ]
 }
