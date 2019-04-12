@@ -28,6 +28,10 @@
     {
       "name": "Clean MEF Component Cache",
       "vsixId": "f5028141-9dd0-4ac4-ae6d-0481ae9a940d"
+    },
+    {
+      "name": "Extensibility Logs",
+      "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
     }
   ]
 }
