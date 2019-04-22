@@ -36,6 +36,10 @@
     {
       "name": "VSCT IntelliSense",
       "vsixId": "6c042f35-bf5c-4cf2-826e-05d6d12e5309"
+    },
+    {
+      "name": "Extensibility Logs",
+      "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
     }
   ]
 }
