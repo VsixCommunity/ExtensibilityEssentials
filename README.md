@@ -6,7 +6,7 @@
 
 A collection of extensions that makes it much easier to write Visual Studio extensions.
 
-This is a must-have for any extension author. 
+This is a must-have for any extension author.
 
 ## Included extensions
 
@@ -19,6 +19,7 @@ This is a must-have for any extension author.
 * [Registry Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.registryexplorer)
 * [KnownMonikers Explorer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.KnownMonikersExplorer)
 * [Clean MEF Component Cache](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache)
+* [Extensibility Logs](https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs)
 
 ### 2019
 
@@ -31,6 +32,7 @@ This is a must-have for any extension author.
 * [Clean MEF Component Cache](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ClearMEFComponentCache)
 * [VSCT IntelliSense](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VsctIntellisense)
 * [Image Manifest Tools](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageManifestTools)
+* [Extensibility Logs](https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs)
 
 ## Extension pack
 This is an extension pack which is a new feature of Visual Studio 2017 Update 8 (15.8) that makes it easy to ship multiple extensions in a single installable package. Read more about [extension packs here](https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthough-create-extension-pack).
