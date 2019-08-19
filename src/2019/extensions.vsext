@@ -10,8 +10,8 @@
       "vsixId": "d7834c28-6a0f-4b5a-b3e0-735dc78cd439"
     },
     {
-      "name": "Registry Explorer",
-      "vsixId": "29464950-087c-4fb6-9fdd-bab0fb71d68f"
+      "name": "Settings Store Explorer",
+      "vsixId": "SettingsStoreExplorer.4e51ef4d-4a0b-46d2-8230-8881625af1a2"
     },
     {
       "name": "Insert Guid",
