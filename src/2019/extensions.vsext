@@ -40,6 +40,10 @@
     {
       "name": "Extensibility Logs",
       "vsixId": "595c271e-e4b3-40ea-9ef7-1138f49b529c"
+    },
+    {
+      "name": "Pkgdef Language",
+      "vsixId": "06278dd5-5d9d-4f27-a3e8-cd619b101a50"
     }
   ]
 }
