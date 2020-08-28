@@ -35,6 +35,7 @@ This is a must-have for any extension author.
 * [Image Manifest Tools](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageManifestTools)
 * [Extensibility Logs](https://marketplace.visualstudio.com/items?itemName=YannDuran.ExtensibilityLogs)
 * [Pkgdef Language](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.PkgdefLanguage)
+* [Extensibility Item Templates](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityItemTemplates)
 
 ## Extension pack
 This is an extension pack which is a new feature of Visual Studio 2017 Update 8 (15.8) that makes it easy to ship multiple extensions in a single installable package. Read more about [extension packs here](https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthough-create-extension-pack).
