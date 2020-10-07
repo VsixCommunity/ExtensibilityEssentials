@@ -48,6 +48,10 @@
     {
       "name": "Extensibility Item Templates",
       "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f41"
+    },
+    {
+      "name": "Textmate Grammar Template",
+      "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3"
     }
   ]
 }

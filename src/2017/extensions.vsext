@@ -36,6 +36,10 @@
     {
       "name": "Pkgdef Language",
       "vsixId": "06278dd5-5d9d-4f27-a3e8-cd619b101a50"
+    },
+    {
+      "name": "Textmate Grammar Template",
+      "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3"
     }
   ]
 }
