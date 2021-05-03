@@ -1,10 +1,11 @@
-﻿using Community.VisualStudio.Toolkit;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
+using Community.VisualStudio.Toolkit;
 using EnvDTE;
 using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
-using System;
-using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
 namespace ExtensibilityEssentials
@@ -29,13 +30,13 @@ namespace ExtensibilityEssentials
         {
             await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
 
-            _solution = await VS.GetServiceAsync<SVsSolution, IVsSolution>();
+            _solution = await VS.Solution.GetSolutionAsync();
 
             if (_solution is not null)
             {
                 // Listen for solutions being opened and new projects being added to existing
                 // solutions so that we can add a build property to each VSIX project.
-                SolutionEvents? events = VS.Events.SolutionEvents;
+                SolutionEvents events = VS.Events.SolutionEvents;
 
                 if (events is not null)
                 {
@@ -44,6 +45,7 @@ namespace ExtensibilityEssentials
                 }
 
                 // If a solution is already open, then act as though it has just been opened.
+                // TODO: In newer versions of the toolkit, call _solution.IsOpen() instead;
                 if (ErrorHandler.Succeeded(_solution.GetProperty((int)__VSPROPID.VSPROPID_IsSolutionOpen, out var value)))
                 {
                     if (value is bool isOpen && isOpen)
@@ -57,19 +59,13 @@ namespace ExtensibilityEssentials
         private void OnSolutionOpened()
         {
             ThreadHelper.ThrowIfNotOnUIThread();
+            IEnumerable<IVsHierarchy> hierarchies = _solution.GetAllProjectHierarchys();
 
-            // Iterate through all projects in the solution
-            // and add the build property to all VSIX projects.
-            Guid empty = default;
-            if (ErrorHandler.Succeeded(_solution.GetProjectEnum((uint)__VSENUMPROJFLAGS.EPF_LOADEDINSOLUTION, ref empty, out IEnumHierarchies enumerator)))
+            foreach (IVsHierarchy hierarchy in hierarchies)
             {
-                var hierarchy = new IVsHierarchy[1];
-                while (ErrorHandler.Succeeded(enumerator.Next(1, hierarchy, out var count)) && count > 0)
+                if (IsVsixProject(hierarchy))
                 {
-                    if (IsVsixProject(hierarchy[0]))
-                    {
-                        ApplyBuildPropertyToProject(hierarchy[0]);
-                    }
+                    ApplyBuildPropertyToProject(hierarchy);
                 }
             }
         }
@@ -87,6 +83,7 @@ namespace ExtensibilityEssentials
             }
         }
 
+        // TODO: Replace with project.IsKind(VSIXGuid) in newer versions of the Tookit
         private bool IsVsixProject(IVsHierarchy hierarchy)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
@@ -108,6 +105,7 @@ namespace ExtensibilityEssentials
             return false;
         }
 
+        // TODO: Use Project.TrySetBuildProperty in newer versions of the Toolkit
         private void ApplyBuildPropertyToProject(IVsHierarchy hierarchy)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
