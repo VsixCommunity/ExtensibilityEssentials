@@ -11,7 +11,12 @@ namespace ExtensibilityEssentials
 {
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration(Vsix.Name, Vsix.Description, Vsix.Version)]
-    [ProvideAutoLoad(VSConstants.UICONTEXT.SolutionExists_string, flags: PackageAutoLoadFlags.BackgroundLoad)]
+    [ProvideAutoLoad("07ce51b0-5439-4c81-bbc6-dc629f343357", flags: PackageAutoLoadFlags.BackgroundLoad)]
+    [ProvideUIContextRule("07ce51b0-5439-4c81-bbc6-dc629f343357",
+        name: "VSIX project",
+        expression: "vsix",
+        termNames: new[] { "vsix" },
+        termValues: new[] { "SolutionHasProjectFlavor:{82b43b9b-a64c-4715-b499-d71e9ca2bd60}" })]
     public sealed partial class ExtensibilityEssentialsPackage : ToolkitPackage
     {
         private static readonly Guid _vsixProjectSubType = new("82b43b9b-a64c-4715-b499-d71e9ca2bd60");

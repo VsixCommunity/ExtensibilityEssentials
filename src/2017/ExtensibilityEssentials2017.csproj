@@ -65,20 +65,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Community.VisualStudio.Toolkit">
-      <Version>15.0.75.40</Version>
-    </PackageReference>
+    <PackageReference Include="Community.VisualStudio.Toolkit" Version="15.0.75.40" ExcludeAssets="Runtime" />
     <PackageReference Include="Microsoft.VSSDK.BuildTools">
       <Version>15.8.3252</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="VSPackage.resx">
-      <MergeWithCTO>true</MergeWithCTO>
-      <ManifestResourceName>VSPackage</ManifestResourceName>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExtensibilityEssentialsPackage.cs" />
