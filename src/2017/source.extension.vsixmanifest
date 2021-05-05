@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="f613e37-c9b4-4e49-b61f-0cf036ca76d6" Version="1.0.999" Language="en-US" Publisher="Mads Kristensen" />
+        <Identity Id="f613e37-c9b4-4e49-b61f-0cf036ca76d6" Version="1.1.999" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Extensibility Essentials 2017</DisplayName>
         <Description xml:space="preserve">A collection of extensions that makes it much easier to write Visual Studio extensions</Description>
-        <MoreInfo>https://github.com/madskristensen/ExtensibilityEssentials</MoreInfo>
+        <MoreInfo>https://github.com/VsixCommunity/ExtensibilityEssentials</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
@@ -17,7 +17,7 @@
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
-  <Assets>
-    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-  </Assets>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
 </PackageManifest>

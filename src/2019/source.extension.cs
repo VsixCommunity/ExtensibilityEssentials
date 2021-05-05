@@ -11,7 +11,7 @@ namespace ExtensibilityEssentials
         public const string Name = "Extensibility Essentials 2019";
         public const string Description = @"A collection of extensions that makes it much easier to write Visual Studio extensions";
         public const string Language = "en-US";
-        public const string Version = "1.0.999";
+        public const string Version = "1.1.999";
         public const string Author = "Mads Kristensen";
         public const string Tags = "vsix, vsx, extensibility";
     }

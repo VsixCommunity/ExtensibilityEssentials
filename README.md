@@ -1,6 +1,6 @@
 # VS Extensibility Essentials
 
-[![Build status](https://ci.appveyor.com/api/projects/status/6322ui5tjeovphnw?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilityessentials)
+[![Build status](https://ci.appveyor.com/api/projects/status/f502m7j4wqek9lay?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilityessentials)
 
 ---------------------------------------
 
