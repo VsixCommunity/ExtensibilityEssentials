@@ -52,6 +52,10 @@
     {
       "name": "Textmate Grammar Template",
       "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3"
+    },
+    {
+      "name": "Extensibility Margin",
+      "vsixId": "41b4c077-6d9f-4e0a-a356-988baf3e830a"
     }
   ]
 }
