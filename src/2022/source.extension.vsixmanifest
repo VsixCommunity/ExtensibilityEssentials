@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="4c38fd13-e407-4da6-a7b2-a04346af8943" Version="1.1.999" Language="en-US" Publisher="Mads Kristensen" />
-        <DisplayName>Extensibility Essentials 2022</DisplayName>
-        <Description xml:space="preserve">A collection of extensions that makes it much easier to write Visual Studio extensions</Description>
-        <MoreInfo>https://github.com/VsixCommunity/ExtensibilityEssentials</MoreInfo>
-        <License>Resources\LICENSE</License>
-        <Icon>Resources\Icon.png</Icon>
-        <PreviewImage>Resources\Icon.png</PreviewImage>
-        <Tags>vsix, vsx, extensibility</Tags>
-    </Metadata>
-    <Installation AllUsers="true">
-      <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
-        <ProductArchitecture>amd64</ProductArchitecture>
-      </InstallationTarget>
-    </Installation>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
-        <Prerequisite Id="Microsoft.VisualStudio.Component.VSSDK" Version="[15.0,)" DisplayName="Visual Studio SDK" />
-    </Prerequisites>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-    </Assets>
+  <Metadata>
+    <Identity Id="4c38fd13-e407-4da6-a7b2-a04346af8943" Version="1.1.999" Language="en-US" Publisher="Mads Kristensen" />
+    <DisplayName>Extensibility Essentials 2022</DisplayName>
+    <Description xml:space="preserve">A collection of extensions that makes it much easier to write Visual Studio extensions</Description>
+    <MoreInfo>https://github.com/VsixCommunity/ExtensibilityEssentials</MoreInfo>
+    <License>Resources\LICENSE</License>
+    <Icon>Resources\Icon.png</Icon>
+    <PreviewImage>Resources\Icon.png</PreviewImage>
+    <Tags>vsix, vsx, extensibility</Tags>
+  </Metadata>
+  <Installation AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,17.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.VSSDK" Version="[15.0,)" DisplayName="Visual Studio SDK" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
 </PackageManifest>
