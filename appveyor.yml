@@ -6,7 +6,7 @@ install:
 before_build:
   - ps: Vsix-IncrementVsixVersion .\src\2017\source.extension.vsixmanifest | Vsix-UpdateBuildVersion
   - ps: Vsix-IncrementVsixVersion .\src\2019\source.extension.vsixmanifest
-  - ps: Vsix-IncrementVsixVersion .\src\20222\source.extension.vsixmanifest
+  - ps: Vsix-IncrementVsixVersion .\src\2022\source.extension.vsixmanifest
   - ps: Vsix-TokenReplacement src\2017\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
   - ps: Vsix-TokenReplacement src\2019\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
   - ps: Vsix-TokenReplacement src\2022\source.extension.cs 'Version = "([0-9\\.]+)"' 'Version = "{version}"'
