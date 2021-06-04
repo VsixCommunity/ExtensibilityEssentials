@@ -55,7 +55,7 @@ namespace ExtensibilityEssentials
 
             if (project.IsKind(ProjectTypes.EXTENSIBILITY))
             {
-                project.TrySetBuildPropertyAsync("ExtensibilityEssentialsInstalled", "true").ForgetAndLogOnFailure();
+                project.TrySetBuildPropertyAsync("ExtensibilityEssentialsInstalled", "true").FireAndForget();
             }
         }
     }

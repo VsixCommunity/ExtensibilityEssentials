@@ -15,10 +15,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{C2609E50-3761-4D75-B0F1-18AA431CE85C}</ProjectGuid>
+    <ProjectGuid>{C2609E50-3761-4D75-B0F1-18AA431CE85D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>ExtensibilityEssentials</RootNamespace>
-    <AssemblyName>ExtensibilityEssentials2019</AssemblyName>
+    <AssemblyName>ExtensibilityEssentials2022</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>true</IncludeAssemblyInVSIXContainer>
@@ -65,11 +65,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Community.VisualStudio.Toolkit" Version="16.0.75.81" ExcludeAssets="Runtime">
+    <PackageReference Include="Community.VisualStudio.Toolkit" Version="17.0.75.81-pre" ExcludeAssets="Runtime">
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools">
-      <Version>16.9.1050</Version>
+      <Version>17.0.1600</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
