@@ -26,6 +26,10 @@
       "vsixId": "06278dd5-5d9d-4f27-a3e8-cd619b101a50"
     },
     {
+      "name": "Extensibility Margin",
+      "vsixId": "41b4c077-6d9f-4e0a-a356-988baf3e830a"
+    },
+    {
       "name": "Extensibility Template Pack",
       "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f42"
     },
