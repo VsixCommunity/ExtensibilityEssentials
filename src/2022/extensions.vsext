@@ -10,6 +10,10 @@
       "vsixId": "9def4441-acfd-4dd6-bffd-4531a57dee37"
     },
     {
+      "name": "Image Manifest Tools",
+      "vsixId": "d5ed0bf3-4e8d-4199-b1ff-6c271e08bd0b"
+    },
+    {
       "name": "Image Optimizer",
       "vsixId": "bf95754f-93d3-42ff-bfe3-e05d23188b08"
     },
