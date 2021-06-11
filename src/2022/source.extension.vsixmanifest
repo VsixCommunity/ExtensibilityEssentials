@@ -11,7 +11,6 @@
     <Tags>vsix, vsx, extensibility</Tags>
   </Metadata>
   <Installation AllUsers="true">
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0,17.0)" />
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,18.0)">
       <ProductArchitecture>amd64</ProductArchitecture>
     </InstallationTarget>
