@@ -36,6 +36,10 @@
     {
       "name": "Textmate Grammar Template",
       "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3"
+    },
+    {
+      "name": "VS Theme Colors 2022",
+      "vsixId": "6ad27930-f7a1-4888-a172-c6fa4440e7a1"
     }
   ]
 }

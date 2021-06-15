@@ -56,6 +56,10 @@
     {
       "name": "Extensibility Margin",
       "vsixId": "41b4c077-6d9f-4e0a-a356-988baf3e830a"
+    },
+    {
+      "name": "VS Theme Colors 2019",
+      "vsixId": "6ad27930-f7a1-4888-a172-c6fa4440e7a0"
     }
   ]
 }
