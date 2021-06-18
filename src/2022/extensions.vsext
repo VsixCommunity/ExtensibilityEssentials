@@ -34,6 +34,14 @@
       "vsixId": "88049e1e-62f2-4ea2-851f-9ddb2de37f42"
     },
     {
+      "name": "KnownMonikers Explorer",
+      "vsixId": "c38f3512-4653-4d97-a4c5-860a425209f6"
+    },
+    {
+      "name": "VSCT IntelliSense",
+      "vsixId": "6c042f35-bf5c-4cf2-826e-05d6d12e5300"
+    },
+    {
       "name": "Textmate Grammar Template",
       "vsixId": "2913ed5b-5767-43f5-be7c-ff5c68754bc3"
     },
