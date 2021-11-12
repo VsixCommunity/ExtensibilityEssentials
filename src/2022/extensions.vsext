@@ -48,6 +48,10 @@
     {
       "name": "VS Theme Colors 2022",
       "vsixId": "6ad27930-f7a1-4888-a172-c6fa4440e7a1"
+    },
+    {
+      "name": "VSCode Theme Converter",
+      "vsixId": "ThemeConverter.df309c71-fe30-4f88-bf07-d73fbc24fd11"
     }
   ]
 }
